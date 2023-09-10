@@ -34,8 +34,9 @@ const ThreadCard = ({
 }: Props) => {
     return (
     <article>
-        <h2 className="text-small-regular text-light-2"></h2>
-        {content}
+        <h2 className="text-small-regular text-light-2">
+          {content}
+        </h2>
     </article>
     )
 }
