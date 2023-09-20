@@ -6,7 +6,7 @@ import { communityTabs } from "@/constants";
 import ProfileHeader from "@/components/shared/ProfileHeader";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-import ThreadsTab from "@/components/shared/ThreadsTabs";
+import ThreadsTab from "@/components/shared/ThreadsTab";
 import { fetchCommunityDetails } from "@/lib/actions/community.action";
 import UserCard from "@/components/cards/UserCard";
 
