@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Threads - Modern Social Media App
 
-## Getting Started
+This is a full-stack modern social media application inspired by the [original project](https://github.com/adrianhajdin/threads) by Adrian Hajdin. This project features user authentication, real-time posts, and an intuitive UI.
 
-First, run the development server:
+## Features
 
-```bash
+- User authentication (OAuth, JWT)
+- Post creation, editing, and deletion
+- Real-time interactions
+- Responsive design with modern UI/UX
+- Built using React, Next.js, and Tailwind CSS
+- Backend powered by MongoDB and Node.js
+
+## Tech Stack
+
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express.js, MongoDB
+- **Authentication**: NextAuth.js
+- **Deployment**: Vercel, MongoDB Atlas
+
+## Installation
+
+To clone and run this project locally, use the following command:
+
+```sh
+git clone https://github.com/akash-kushwaha0/threads.git
+cd threads
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Create a `.env` file and configure environment variables.
+4. Start the development server with `npm run dev`.
+5. Open `http://localhost:3000` in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Folder Structure
 
-## Learn More
+```
+├── src
+│   ├── components    # Reusable UI components
+│   ├── context       # Context API for state management
+│   ├── pages         # Next.js page components
+│   ├── styles        # Global styles
+│   ├── utils         # Helper functions
+├── public            # Static assets
+├── package.json      # Project dependencies
+└── README.md         # Project documentation
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can deploy this project on platforms like:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Vercel
+- Netlify
+- Render
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to fork this repository, make changes, and submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
